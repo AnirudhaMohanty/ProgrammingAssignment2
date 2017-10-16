@@ -2,6 +2,7 @@
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
+## returns list of functions with names: set, get, setInverseMatrix, getInverseMatrix
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
